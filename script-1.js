@@ -152,7 +152,7 @@
                 
                 // window.location.href = "/test.html";
                 // but2.href = "/test.html";
-                window.location.href = "/test.html";
+                window.location.href = "https://shuvalovandrey.github.io/RU-vs-EN/test.html";
                 
             };
         };

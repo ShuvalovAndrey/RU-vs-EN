@@ -423,7 +423,7 @@
             sessionStorage.removeItem('but');
             // sessionStorage.setItem('done', 0)
             // window.location.href = "/done.html"
-            window.location.replace("/done.html");
+            window.location.replace("https://shuvalovandrey.github.io/RU-vs-EN/done.html");
         // } else {
         //     sessionStorage.setItem('map', 0);
         };

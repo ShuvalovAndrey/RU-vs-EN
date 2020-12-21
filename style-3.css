@@ -29,7 +29,7 @@ body {
     position: relative;
     padding: 0;
     margin: 0;
-    background: url(/img/Union.svg) no-repeat 3%;
+    background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/Union.svg) no-repeat 3%;
     background-size: auto;
 }
 
@@ -212,7 +212,7 @@ input:checked + label .container span::after {
     height: 24px;
     position: absolute;
     border-radius: 0px;
-    background: url(/img/check.svg) no-repeat;
+    background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/check.svg) no-repeat;
     top: 14px;
     left: 433px;
 }
@@ -241,7 +241,7 @@ input:checked + label .container span::after {
     content: "";
     width: 18px;
     height: 12px;
-    background: url(/img/Arrow-1.svg) no-repeat;
+    background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/Arrow-1.svg) no-repeat;
     position: absolute;
     left: 31px;
     top: 23px;
@@ -304,7 +304,7 @@ button::before {
     content: "";
     width: 42px;
     height: 42px;
-    background: url(/img/Arrow.svg) 50% 50% no-repeat, linear-gradient(45deg, rgba(146, 254, 185, 0.5) 0%, rgba(245, 251, 130, 0.5) 100%) no-repeat;
+    background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/Arrow.svg) 50% 50% no-repeat, linear-gradient(45deg, rgba(146, 254, 185, 0.5) 0%, rgba(245, 251, 130, 0.5) 100%) no-repeat;
     position: absolute;
     right: 9px;
     top: 9px;
@@ -500,7 +500,7 @@ button:not([disabled]):hover::before{
 
 .particles:nth-of-type(2) {
     display: inline-block;
-    background: url(/img/Star\ 1.svg) no-repeat;
+    background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/Star\ 1.svg) no-repeat;
     position: relative;
     height: 20px;
     width: 20px;
@@ -574,7 +574,7 @@ button:not([disabled]):hover::before{
 }
 
 .particles::before {
-    content: url(/img/Ellipse\ 5.svg);
+    content: url(https://shuvalovandrey.github.io/RU-vs-EN/img/Ellipse\ 5.svg);
     position: absolute;
     top: -40px;
     /* left: -30px; */
@@ -636,7 +636,7 @@ input:checked + .l2 .container span::before  {
 input:checked + .l2 .container span::after {
     width: 33px;
     height: 35px;
-    background: url(/img/Group\ 30.svg) no-repeat;
+    background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/Group\ 30.svg) no-repeat;
     top: 12px;
     left: 431px;
 }
@@ -651,7 +651,7 @@ input:checked + .l2 .container span::after {
 }
 
 .container .l3::after {
-    background: url(/img/check-1.svg) no-repeat;
+    background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/check-1.svg) no-repeat;
     border-radius: 0;
     width: 30px;
     height: 24px;
@@ -987,7 +987,7 @@ input:checked + .l2 .container span::after {
         input:checked + .l2 .container span::after {
             width: 30px;
             height: 30px;
-            background: url(/img/wrong-1.svg) no-repeat;
+            background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/wrong-1.svg) no-repeat;
             top: 0;
             left: 100%;
             margin: 9px 0px 10px -38px;
@@ -997,14 +997,14 @@ input:checked + .l2 .container span::after {
             top: 0;
             left: 100%;
             margin: 10px 0px 10px -36px;
-            background: url(/img/check-pale.svg) no-repeat;
+            background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/check-pale.svg) no-repeat;
         }
 
         input:checked + label .container span::after {
             top: 0;
             left: 100%;
             margin: 10px 0px 10px -36px;
-            background: url(/img/check-3.svg) no-repeat;
+            background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/check-3.svg) no-repeat;
         }
 
         label > span {

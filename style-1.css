@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 48px;
+    font-family: 'Rubik', sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    color: #ffffff;
+    background: linear-gradient(216.9deg, #17E6E6 33.62%, #71EBCF 100%) no-repeat center center fixed;
+    background-size: cover;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+/*Приветствие!*/
+
+.navi {
+    height: 100vh;
+    width: 100vw;
+}
+
+.section {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+h1 {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 90px;
+    margin: 0 15px 15px 15px;
+    font-style: normal;
+    text-align: center;
+
+}
+
+span {
+    position: relative;
+}
+
+span::before {
+    content: "";
+    width: 102.52px;
+    height: 67px;
+    position: absolute;
+    background: url(/img/Group\ 24.svg) no-repeat;
+    background-size: cover;
+    bottom: 55px;
+    left: 63px;
+}
+
+span::after {
+    content: "";
+    width: 270.5px;
+    height: 14.55px;
+    position: absolute;
+    background: url(/img/Vector3.svg) no-repeat;
+    background-size: cover;
+    top: 36px;
+    right: -11px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 48px;
+    margin: 0 15px;
+    padding: 0;
+    text-align: center;
+}
+
+h2:nth-of-type(2) {
+    opacity: 0.7;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-1-1 {
+    display: flex;
+    position: relative;
+}
+
+.btn-1 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #14CCCC;
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding: 18px 30px;
+    text-transform: uppercase;
+    transition: box-shadow 0.2s linear;
+    outline: none;
+    
+}
+
+/* svg {
+    position: absolute;
+    top: -11px;
+    left: -11px;
+    z-index: -1;
+    visibility: hidden;
+} */
+
+.btn-1:hover {
+    box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.3), 
+                0 0 0 12px rgba(255, 255, 255, 0.15);              
+}
+
+
+
+/* .btn-1:focus + svg {
+    visibility: visible;
+} */
+
+@media only screen 
+    and (min-width: 600px) 
+    and (max-width: 1366px),
+        (min-device-width: 600px) 
+    and (max-device-width: 1366px)
+    and (orientation: portrait) {
+        h1 {
+            font-size: 48px;
+            line-height: 60px;
+        }
+
+        span::before {
+            bottom: 45px;
+            left: 52px;
+            width: 66px;
+            height: 43px;
+        }
+
+        span::after {
+            top: 29px;
+            right: -9px;
+            width: 216px;
+            height: 13px;
+        }
+    }
+
+@media only screen  
+    and (max-width: 599px),
+        (max-device-width: 599px)
+    and (orientation: portrait) {
+        h1 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+
+        h2 {
+            line-height: 24px;
+            font-size: 18px;
+        }
+
+        h2:nth-of-type(2) {
+            margin-top: 15px;
+            font-size: 15px;
+        }
+
+        span::before {
+            bottom: 31px;
+            left: 32px;
+            width: 50px;
+            height: 33px;
+        }
+
+        span::after {
+            top: 18px;
+            right: -6px;
+            width: 135px;
+            height: 9px;
+        }
+
+    }
+
+    @media only screen  
+    and (max-width: 399px),
+        (max-device-width: 399px)
+    and (orientation: portrait) {
+        .btn-1-1 {
+            width: 100%;
+        }
+        .btn-1 { 
+            width: 100%;
+            padding: 18px 0;
+            text-align: center;
+            margin: 0 15px;
+        }
+    }        
+
+    @media only screen 
+    and (max-width: 399px), 
+        (max-device-width: 339px)
+    and (orientation: portrait) {
+        
+        span::before {
+            bottom: 31px;
+            left: 32px;
+            width: 50px;
+            height: 33px;
+
+        }
+
+        span::after {
+            top: 18px;
+            right: -6px;
+            width: 135px;
+            height: 9px;
+        }
+
+        .btn-1:focus + svg {
+            visibility: hidden;
+        }
+    }
+    
+    @media only screen 
+    and (max-device-width: 1366px)
+    and (orientation: portrait),
+        (max-device-width: 1366px)
+    and (orientation: landscape) {
+        .btn-1:hover {
+            box-shadow: none;
+        }
+
+        .btn-1:focus + svg {
+            visibility: hidden;
+        }
+    }
+
+/* ПопАп*/
+
+/* .title {
+    line-height: 60px;
+}
+
+.list {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    margin-top: 30px;
+}
+
+.list:after {
+    content: " / 5";
+    opacity: 0.7;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    
+    margin-top: 15px;
+}
+
+.popup {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    transform: rotate(-2deg);
+    transform-origin: center;
+    border-radius: 24px;
+    position: absolute;
+    z-index: -1;
+    margin-top: 30px;
+    top: -30px;
+}
+
+.content {
+    align-self: center;
+    position: relative;
+    z-index: 0;
+    max-width: 70%;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #14CCCC;
+    margin-top: 45px;
+    text-align: center;
+}
+
+dl {
+    margin-top: 30px;
+    margin-left: 111px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+
+dt {
+    color: #4D4D4D;
+    list-style: none;
+    text-align: left;
+    position: relative;
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 15px;
+    font-weight: 400;
+}
+
+dt::before {
+    content: "";
+    background: url(/img/eng.svg) no-repeat;
+    width: 36px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    left: -35px;
+    top: -3px;
+}
+
+dt:last-of-type::before {
+    background: url(/img/ru.svg) no-repeat;
+}
+
+dd {
+    background: #EEFFFF;
+    border-radius: 6px;
+    padding: 3px 15px;  
+    font-size: 15px;
+    line-height: 24px;
+    color: #14CCCC;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 45px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+
+.knob{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 19%;
+    margin-right: 19%;
+}
+
+.knob-1,
+.knob-2 {
+    position: relative;
+}
+
+.btn-2, .btn-3 {
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    position: relative;
+    padding: 6px 0;
+    outline: none;   
+}
+
+.btn-2 {
+    padding-right: 9px;
+    padding-left: 42px;
+}
+
+.btn-3 {
+    padding-left: 9px;
+    padding-right: 42px;
+}
+
+.btn-2::before {
+    content: "";
+    width: 18px;
+    height: 12px;
+    background: url(/img/Arrow.svg);
+    transform: rotate(180deg);
+    position: absolute;
+    left: 9px;
+    top: 11px;
+    transition-duration: 0.3s;
+}
+
+.btn-3::after {
+    content: "";
+    width: 18px;
+    height: 12px;
+    background: url(/img/Arrow.svg);
+    position: absolute;
+    right: 9px;
+    top: 11px;
+    transition-duration: 0.3s;
+}
+
+.btn-2:hover::before{
+    left: -1px;
+}
+
+.btn-3:hover::after{
+    right: -1px;
+}
+
+.s1 {
+    position: absolute;
+    z-index: -1;
+    visibility: hidden;
+    top: 0px;
+    left: -6px;
+}
+
+.s2 {
+    position: absolute;
+    top: 0px;
+    left: -6px;
+    z-index: -1;
+    visibility: hidden;
+}
+
+.btn-2:focus + .s1, 
+.btn-3:focus + .s2 {
+    visibility: visible;   
+}
+
+
+@media only screen 
+    and (min-width: 600px) 
+    and (max-width: 1024px),
+        (min-device-width: 600px) 
+    and (max-device-width: 1024px)
+    and (orientation: portrait) {
+        h1 {
+            font-size: 48px;
+            line-height: 60px;
+        }
+
+        .list {
+            font-size: 24px;
+            line-height: 30px;
+            margin-top: 15px;
+        }
+
+        .content {
+            max-width: 100%;
+            margin: 0 60px;
+        }
+
+        dl {
+            margin-left: 91px;
+            margin-right: 40px;
+        }
+
+        .knob {
+            margin-top: 30px;
+            margin-left: 101px;
+            margin-right: 101px;
+        }
+
+    }
+
+@media only screen  
+    and (max-width: 599px),
+        (max-device-width: 599px)
+    and (orientation: portrait) {
+        .content {
+            max-width: 100%;
+            margin: 0 10px;
+        }
+
+        h1 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+
+        .list {
+            line-height: 30px;
+            font-size: 24px;
+        }
+
+        h3 {
+            margin: 25px 10px 0 10px;
+        }
+
+        dl {
+            margin: 15px 15px 50px 45px;
+        }
+
+        dt {
+            font-size: 15px;
+        }
+
+        dt::before { 
+            width: 30px;
+            height: 25px;
+            background: url(/img/eng-smal.svg) no-repeat;
+            left: -30px;
+            top: 5px;
+        }
+
+        dt:last-of-type::before {
+            background: url(/img/ru-smal.svg) no-repeat;
+        }
+
+        dd {
+            margin-bottom: 15px;
+            margin-top: 8px;
+            padding: 3px 10px;
+            margin-left: 5px;
+            margin-right: 0px;
+        }
+
+        .popup {
+            transform: none;
+        }
+
+        .knob {
+            margin-top: 0px;
+        }
+
+    }
+
+    @media only screen  
+    and (max-width: 399px),
+        (max-device-width: 399px)
+    and (orientation: portrait) {
+        .btn-1-1 {
+            width: 100%;
+        }
+        .btn-1 { 
+            width: 100%;
+            padding: 18px 0;
+            text-align: center;
+            margin: 0 15px;
+        }
+    }        
+
+    @media only screen 
+    and (max-width: 399px), 
+        (max-device-width: 339px)
+    and (orientation: portrait) {
+        
+        span::before {
+            bottom: 31px;
+            left: 32px;
+            width: 50px;
+            height: 33px;
+
+        }
+
+        span::after {
+            top: 18px;
+            right: -6px;
+            width: 135px;
+            height: 9px;
+        }
+
+        .btn-1:focus + svg {
+            visibility: hidden;
+        }
+    }
+    
+    @media only screen 
+    and (max-device-width: 1366px)
+    and (orientation: portrait),
+        (max-device-width: 1366px)
+    and (orientation: landscape) {
+        .btn-1:hover {
+            box-shadow: none;
+        }
+
+        .btn-1:focus + svg {
+            visibility: hidden;
+        }
+    } */
+
+/*Тест*/
+
+/*
+
+
+
+ */

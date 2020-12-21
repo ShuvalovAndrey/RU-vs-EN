@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 48px;
+    font-family: 'Rubik', sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    color: #ffffff;
+    background: linear-gradient(216.9deg, #17E6E6 33.62%, #71EBCF 100%) no-repeat center center fixed;
+    background-size: cover;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+/*Приветствие!*/
+
+.navi {
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/Union-1.svg) no-repeat 100% 0%;
+    background-size: auto;
+}
+
+.section {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+h1 {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 90px;
+    /* margin: 0 15px 15px 15px; */
+    font-style: normal;
+    text-align: center;
+}
+
+h1::after {
+    content: "/8";
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 15px 10px 0 10px;
+    font-style: normal;
+    text-align: center;
+
+}
+
+.knob {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 30px;
+    
+}
+
+.links {
+    width: 48px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.links:nth-of-type(1) { 
+    background-image: url(/img/Telegram.svg);
+    background-position: 10px 15px;
+    margin-right: 15px;
+}
+
+.links:nth-of-type(2) {
+    background-image: url(/img/vk.svg);
+    background-position: 11px 18px;
+}
+
+.links:nth-of-type(3) {
+    background-image: url(/img/Twitter.svg);
+    background-position: 13px 15px;
+    margin: 0 15px;
+}
+
+.links:nth-of-type(4) {
+    background-image: url(/img/Facebook.svg);
+    background-position: 17px 12px;
+}
+
+
+.btn-1 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #14CCCC;
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding: 18px 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    transition: box-shadow 0.2s linear;
+    outline: none;
+    
+}
+
+.btn-1:hover {
+    box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.3), 
+                0 0 0 12px rgba(255, 255, 255, 0.15);              
+}

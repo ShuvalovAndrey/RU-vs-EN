@@ -5,7 +5,7 @@ let btn = document.querySelector('.btn-1');
 h1.innerHTML = sessionStorage.getItem('done');
 
 btn.onclick = function () {
-    window.location.replace("/pop.html");
+    window.location.replace("https://shuvalovandrey.github.io/RU-vs-EN/pop.html");
     sessionStorage.clear();
     
 };

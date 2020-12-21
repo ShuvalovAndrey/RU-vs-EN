@@ -23,7 +23,7 @@ body {
 .navi {
     width: 100vw;
     height: 100vh;
-    background: url(/img/Union-1.svg) no-repeat 100% 0%;
+    background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/Union-1.svg) no-repeat 100% 0%;
     background-size: auto;
 }
 
@@ -82,24 +82,24 @@ h3 {
 }
 
 .links:nth-of-type(1) { 
-    background-image: url(/img/Telegram.svg);
+    background-image: url(https://shuvalovandrey.github.io/RU-vs-EN/img/Telegram.svg);
     background-position: 10px 15px;
     margin-right: 15px;
 }
 
 .links:nth-of-type(2) {
-    background-image: url(/img/vk.svg);
+    background-image: url(https://shuvalovandrey.github.io/RU-vs-EN/img/vk.svg);
     background-position: 11px 18px;
 }
 
 .links:nth-of-type(3) {
-    background-image: url(/img/Twitter.svg);
+    background-image: url(https://shuvalovandrey.github.io/RU-vs-EN/img/Twitter.svg);
     background-position: 13px 15px;
     margin: 0 15px;
 }
 
 .links:nth-of-type(4) {
-    background-image: url(/img/Facebook.svg);
+    background-image: url(https://shuvalovandrey.github.io/RU-vs-EN/img/Facebook.svg);
     background-position: 17px 12px;
 }
 

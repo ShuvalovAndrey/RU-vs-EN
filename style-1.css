@@ -56,7 +56,7 @@ span::before {
     width: 102.52px;
     height: 67px;
     position: absolute;
-    background: url(/img/Group\ 24.svg) no-repeat;
+    background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/Group\ 24.svg) no-repeat;
     background-size: cover;
     bottom: 55px;
     left: 63px;
@@ -67,7 +67,7 @@ span::after {
     width: 270.5px;
     height: 14.55px;
     position: absolute;
-    background: url(/img/Vector3.svg) no-repeat;
+    background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/Vector3.svg) no-repeat;
     background-size: cover;
     top: 36px;
     right: -11px;

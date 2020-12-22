@@ -74,7 +74,7 @@ body {
     content: "";
     width: 18px;
     height: 12px;
-    background: url(/img/Arrow-1.svg) no-repeat;
+    background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/Arrow-1.svg) no-repeat;
     position: absolute;
     left: 31px;
     top: 24px;
@@ -222,7 +222,7 @@ dt {
 
 dt::before {
     content: "";
-    background: url(/img/eng.svg) no-repeat;
+    background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/eng.svg) no-repeat;
     width: 36px;
     height: 30px;
     display: inline-block;
@@ -232,7 +232,7 @@ dt::before {
 }
 
 dt:last-of-type::before {
-    background: url(/img/ru.svg) no-repeat;
+    background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/ru.svg) no-repeat;
 }
 
 dd {
@@ -301,7 +301,7 @@ dd {
     content: "";
     width: 18px;
     height: 12px;
-    background: url(/img/Arrow.svg);
+    background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/Arrow.svg);
     transform: rotate(180deg);
     position: absolute;
     left: 9px;
@@ -313,7 +313,7 @@ dd {
     content: "";
     width: 18px;
     height: 12px;
-    background: url(/img/Arrow.svg);
+    background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/Arrow.svg);
     position: absolute;
     right: 9px;
     top: 11px;
@@ -540,7 +540,7 @@ and (max-height: 599px) {
             width: 30px;
             height: 30px;
             display: inline-block;
-            background: url(/img/Arrow.svg) 50% 50% no-repeat;
+            background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/Arrow.svg) 50% 50% no-repeat;
         }
 
         .arrow-1 {
@@ -645,13 +645,13 @@ and (max-height: 599px) {
         dt::before { 
             width: 30px;
             height: 25px;
-            background: url(/img/eng-smal.svg) no-repeat;
+            background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/eng-smal.svg) no-repeat;
             left: -30px;
             top: 4px;
         }
 
         dt:last-of-type::before {
-            background: url(/img/ru-smal.svg) no-repeat;
+            background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/ru-smal.svg) no-repeat;
         }
 
         dd {

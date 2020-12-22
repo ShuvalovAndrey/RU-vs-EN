@@ -31,8 +31,6 @@
     let pagi = document.querySelectorAll('.pag');
 
     let pop = document.querySelectorAll('.popup');
-    
-    let navi = document.querySelector('.navi');
 
     let textList = ['1', '2', '3', '4', '5'];
 
@@ -78,7 +76,7 @@
 
    window.addEventListener('resize', () => {
      let vh = window.innerHeight * 0.01;
-     document.navi.style.setProperty('--vh', `${vh}px`);
+     document.documentElement.style.setProperty('--vh', `${vh}px`);
    };
     
     but3.style.visibility = sessionStorage.getItem('but');

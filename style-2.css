@@ -36,7 +36,6 @@ body {
     justify-content: flex-end;
     width: 100vw;
     height: 100vh;
-    max-height: 100vh;
 }
 
 
@@ -75,7 +74,7 @@ body {
     content: "";
     width: 18px;
     height: 12px;
-    background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/Arrow-1.svg) no-repeat;
+    background: url(/img/Arrow-1.svg) no-repeat;
     position: absolute;
     left: 31px;
     top: 24px;
@@ -136,6 +135,7 @@ h2:nth-of-type(2) {
     justify-content: center;
     position: relative;
     margin-top: 35px;
+    
 }
 
 
@@ -188,7 +188,7 @@ h2:nth-of-type(2) {
     max-width: 800px;
     height: 320px;
     margin: 0 60px;
-
+    
 }
 
 h3 {
@@ -222,7 +222,7 @@ dt {
 
 dt::before {
     content: "";
-    background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/eng.svg) no-repeat;
+    background: url(/img/eng.svg) no-repeat;
     width: 36px;
     height: 30px;
     display: inline-block;
@@ -232,7 +232,7 @@ dt::before {
 }
 
 dt:last-of-type::before {
-    background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/ru.svg) no-repeat;
+    background: url(/img/ru.svg) no-repeat;
 }
 
 dd {
@@ -301,7 +301,7 @@ dd {
     content: "";
     width: 18px;
     height: 12px;
-    background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/Arrow.svg);
+    background: url(/img/Arrow.svg);
     transform: rotate(180deg);
     position: absolute;
     left: 9px;
@@ -313,7 +313,7 @@ dd {
     content: "";
     width: 18px;
     height: 12px;
-    background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/Arrow.svg);
+    background: url(/img/Arrow.svg);
     position: absolute;
     right: 9px;
     top: 11px;
@@ -540,7 +540,7 @@ and (max-height: 599px) {
             width: 30px;
             height: 30px;
             display: inline-block;
-            background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/Arrow.svg) 50% 50% no-repeat;
+            background: url(/img/Arrow.svg) 50% 50% no-repeat;
         }
 
         .arrow-1 {
@@ -566,12 +566,13 @@ and (max-height: 599px) {
         .content {
             max-width: 100%;
             min-width: 90%;
-            margin: 5px 10px 93px 10px;
+            margin: 5px 10px 0px 10px;
             overflow: hidden;
             background-color: #ffffff;
             border-radius: 24px;
             box-shadow: 0 -10px 0 -5px rgba(255, 255, 255, 0.5);
             height: 100%;
+            
         }
 
         .content-dl::-webkit-scrollbar {
@@ -611,6 +612,7 @@ and (max-height: 599px) {
             height: 100%;
             overflow: hidden;
             justify-content: flex-start;
+            
         }
 
         .title {
@@ -643,13 +645,13 @@ and (max-height: 599px) {
         dt::before { 
             width: 30px;
             height: 25px;
-            background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/eng-smal.svg) no-repeat;
+            background: url(/img/eng-smal.svg) no-repeat;
             left: -30px;
             top: 4px;
         }
 
         dt:last-of-type::before {
-            background: url(https://shuvalovandrey.github.io/RU-vs-EN/img/ru-smal.svg) no-repeat;
+            background: url(/img/ru-smal.svg) no-repeat;
         }
 
         dd {
@@ -663,12 +665,12 @@ and (max-height: 599px) {
 
         .knob {
             width: 100%;
-            position: fixed;
+            /* position: fixed; */
             justify-content: center;
             flex-direction: column;
             align-items: center;
             bottom: 0px;
-            margin: 15px 0 0 0;
+            margin: 10px 0 0 0;
         }
 
         .pagination {

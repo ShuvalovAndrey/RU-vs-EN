@@ -73,11 +73,6 @@
         'Джеймс сказал: «Я уже сделал это».',
         'Не мог бы ты позвонить моему брату, и попросить его взять ноутбук?'
     ];
-
-   window.addEventListener('resize', () => {
-     let vh = window.innerHeight * 0.01;
-     document.documentElement.style.setProperty('--vh', `${vh}px`);
-   };
     
     but3.style.visibility = sessionStorage.getItem('but');
 

@@ -252,8 +252,8 @@ dd {
 }
 
 .knob{
-/*     display: flex;
-    display: -webkit-flex; */
+    display: flex;
+    display: -webkit-flex;
     /* justify-content: space-around; */
     justify-content: space-between;
     /* align-items: center; */
@@ -566,7 +566,7 @@ and (max-height: 599px) {
         .content {
             max-width: 100%;
             min-width: 90%;
-            margin: 5px 10px 0px 10px;
+            margin: 5px 10px 93px 10px;
             overflow: hidden;
             background-color: #ffffff;
             border-radius: 24px;
@@ -665,12 +665,12 @@ and (max-height: 599px) {
 
         .knob {
             width: 100%;
-            /* position: fixed; */
+            position: fixed;
             justify-content: center;
             flex-direction: column;
             align-items: center;
             bottom: 0px;
-            margin: 10px 0 0 0;
+            margin: 15px 0 0 0;
         }
 
         .pagination {

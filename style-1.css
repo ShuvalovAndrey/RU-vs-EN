@@ -5,6 +5,7 @@ html {
     height: calc(var(--vh, 1vh) * 100);
     min-height: -webkit-fill-available;
     height: -webkit-fill-available;
+}
 
 body {
     width: 100%;

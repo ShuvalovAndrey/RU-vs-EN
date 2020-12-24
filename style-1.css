@@ -20,9 +20,10 @@ body {
     background-size: cover;
     scroll-behavior: smooth;
     overflow: hidden;
+    -webkit-overflow-scrolling: touch;
 /*      min-height: 100vh; */
   /* mobile viewport bug fix */
-  min-height: -webkit-fill-available;
+/*   min-height: -webkit-fill-available; */
 }
 
 /*Приветствие!*/

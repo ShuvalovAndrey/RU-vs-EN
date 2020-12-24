@@ -18,20 +18,15 @@ body {
     color: #ffffff;
     background: linear-gradient(216.9deg, #17E6E6 33.62%, #71EBCF 100%) no-repeat center center fixed;
     background-size: cover;
-/*     scroll-behavior: smooth;
+    scroll-behavior: smooth;
     overflow: hidden;
-    -webkit-overflow-scrolling: touch; */
+/*     -webkit-overflow-scrolling: touch; */
 /*      min-height: 100vh; */
   /* mobile viewport bug fix */
 /*   min-height: -webkit-fill-available; */
 }
 
 /*Приветствие!*/
-.wraper {
-    scroll-behavior: smooth;
-    overflow: hidden;
-    -webkit-overflow-scrolling: touch;
-}
 
 .navi {
     height: 100%;

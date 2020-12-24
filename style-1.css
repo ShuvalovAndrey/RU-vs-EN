@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
 
+html {
+  height: -webkit-fill-available;
+}
+
 body {
 /*     width: 100%;
     height: 100%; */
@@ -18,6 +22,9 @@ body {
     background-size: cover;
     scroll-behavior: smooth;
     overflow: hidden;
+     min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
 }
 
 /*Приветствие!*/

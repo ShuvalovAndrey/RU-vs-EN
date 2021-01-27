@@ -835,7 +835,8 @@ input:checked + .l2 .container span::after {
 
 @media only screen 
     and (max-width: 666px)
-        and (orientation: portrait)
+        and (orientation: portrait),
+        (max-height: 666px)
         and (orientation: landscape) {
         body {
             overflow: hidden;

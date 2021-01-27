@@ -137,9 +137,7 @@ h2:nth-of-type(2) {
 
 @media only screen 
     and (min-width: 600px) 
-    and (max-width: 1366px),
-        (min-device-width: 600px) 
-    and (max-device-width: 1366px)
+    and (max-width: 1366px)
     and (orientation: portrait) {
         h1 {
             font-size: 48px;
@@ -162,8 +160,7 @@ h2:nth-of-type(2) {
     }
 
 @media only screen  
-    and (max-width: 599px),
-        (max-device-width: 599px)
+    and (max-width: 599px)
     and (orientation: portrait) {
         h1 {
             font-size: 30px;
@@ -197,8 +194,7 @@ h2:nth-of-type(2) {
     }
 
     @media only screen  
-    and (max-width: 399px),
-        (max-device-width: 399px)
+    and (max-width: 399px)
     and (orientation: portrait) {
         .btn-1-1 {
             width: 100%;
@@ -212,8 +208,7 @@ h2:nth-of-type(2) {
     }        
 
     @media only screen 
-    and (max-width: 399px), 
-        (max-device-width: 339px)
+    and (max-width: 399px)
     and (orientation: portrait) {
         
         span::before {
